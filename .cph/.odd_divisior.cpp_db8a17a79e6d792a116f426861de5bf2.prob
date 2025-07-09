@@ -1,0 +1,1 @@
+{"name":"Local: odd_divisior","url":"c:\\Users\\ABC\\Desktop\\cp\\odd_divisior.cpp","tests":[{"id":1752076664725,"input":"6\n2\n3\n4\n5\n998244353\n1099511627776\n","output":"NO\nYES\nNO\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\odd_divisior.cpp","group":"local","local":true}

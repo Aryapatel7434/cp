@@ -1,1 +1,1 @@
-{"name":"Local: 01_game","url":"c:\\Users\\ABC\\Desktop\\cp\\01_game.cpp","tests":[{"id":1751912735891,"input":"3\n01\n1111\n0011\n","output":"DA\nNET\nNET\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\01_game.cpp","group":"local","local":true}
+{"name":"Local: 01_game","url":"c:\\Users\\ABC\\Desktop\\cp\\01_game.cpp","tests":[],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\01_game.cpp","group":"local","local":true}
