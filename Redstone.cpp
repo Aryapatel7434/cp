@@ -12,22 +12,18 @@ int main()
         for(int i=0;i<n;i++){
             cin>>v[i];
         }
-        unordered_map<int,int>mp;
-        for(auto it:v){
-            mp[it]++;
+    //   
+    
+    //i use set
+      unordered_set<int>s;
+      bool ok=false;
+        for(int x:v){
+            if(s.count(x)){
+                ok=true;
+                break;
+            }
+            s.insert(x);
         }
-        bool flag=false;
-       for(auto ir:mp){
-          if(ir.second>=2){
-            flag=true;
-            break;
-          }
-       }
-       if(flag==true){
-        cout<<"YES"<<endl;
-    }
-    else{
-        cout<<"NO"<<endl;
-    }
+        cout<<(ok?"YES\n":"NO\n");
     }
 }
