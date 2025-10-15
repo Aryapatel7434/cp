@@ -1,16 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-
 using namespace std;
-#define int long long
-
-signed main() {
-    if (1) {
-        ios_base::sync_with_stdio(false);
-        cin.tie(nullptr);
-        cout.tie(nullptr);
-    }
+int main(){
     int t;
     cin >> t;
     while (t--) {
