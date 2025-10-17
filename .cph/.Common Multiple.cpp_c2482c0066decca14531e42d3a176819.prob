@@ -1,0 +1,1 @@
+{"name":"Local: Common Multiple","url":"c:\\Users\\ABC\\Desktop\\cp\\Common Multiple.cpp","tests":[{"id":1760680397242,"input":"3\n3\n1 2 3\n5\n3 1 4 1 5\n1\n1\n","output":"3\n4\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\Common Multiple.cpp","group":"local","local":true}
