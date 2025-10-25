@@ -9,7 +9,7 @@ int main(){
         int n, x, s, q;
         cin >> n >> x >> s >> q;
         vector <int> a(n);
-        a[0] = x * s;
+        a[0] = x * s;//this is true (s*x)%x==0;
         q -= x * s;
         if (q < 0) cout << "-1\n";
         else {
