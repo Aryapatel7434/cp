@@ -11,15 +11,15 @@ int main() {
         int n;
         cin >> n;
         vector<int> a(n);
-        bool hasEven = false, hasOdd = false;
+        bool Even = false, Odd = false;
 
         for (int i = 0; i < n; i++) {
             cin >> a[i];
-            if (a[i] % 2 == 0) hasEven = true;
-            else hasOdd = true;
+            if (a[i] % 2 == 0) Even = true;
+            else Odd = true;
         }
 
-        if (hasEven && hasOdd) {
+        if (Even && Odd) {
             sort(a.begin(), a.end());
         }
 

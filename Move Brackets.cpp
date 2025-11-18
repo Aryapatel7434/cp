@@ -20,8 +20,7 @@ int main(){
           }
           else{
             st.push(s[i]);
-          }
-
+    
         }
        while(!st.empty()){
          if(st.top()==')') count++;
