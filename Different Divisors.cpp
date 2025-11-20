@@ -17,7 +17,7 @@ int main()
         long long d;
         cin>>d;
 
-        long long p1=d+1;
+        long long p1=d+1;//diffrence is atleast d.
         while(!isprime(p1)) p1++;//find the smallest prime number.
 
         long long p2=p1+d;

@@ -1,0 +1,1 @@
+{"name":"Local: Shift Sort","url":"c:\\Users\\ABC\\Desktop\\cp\\Shift Sort.cpp","tests":[{"id":1763660946691,"input":"4\n3\n001\n4\n0110\n6\n110100\n6\n101011\n","output":"0\n1\n2\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\Shift Sort.cpp","group":"local","local":true}
