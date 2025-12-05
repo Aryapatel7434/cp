@@ -17,13 +17,13 @@ int main()
         long long g1=0,g2=0;
 
         for(int i=0;i<n;i++){
-            if(i%2==0) g1=std::gcd(g1,(long long)v[i]);
-            else g2=std::gcd(g2,(long long)v[i]);
+            if(i%2==0) g1=__gcd(g1,v[i]);
+            else g2=__gcd(g2,v[i]);
         }
         //if g1 divides to the even idx element
         bool ok1=true;
         for(int i=1;i<n;i+=2){
-            if(v[i]%g1==0){
+            if(v[i]%g1==0){ //means alternate all element same color means adj element Not same color this is possible.
                 ok1=false;
                 break;
             }
