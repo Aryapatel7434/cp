@@ -1,0 +1,1 @@
+{"name":"Local: suspence","url":"c:\\Users\\ABC\\Desktop\\cp\\suspence.cpp","tests":[{"id":1765202232684,"input":"5\n3\n1 2\n2\n0 0\n4\n6 0\n3\n3 3\n10\n11 5\n","output":"2\n0\n3\n3\n10\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\suspence.cpp","group":"local","local":true}
