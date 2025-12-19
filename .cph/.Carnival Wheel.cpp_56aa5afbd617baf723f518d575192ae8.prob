@@ -1,0 +1,1 @@
+{"name":"Local: Carnival Wheel","url":"c:\\Users\\ABC\\Desktop\\cp\\Carnival Wheel.cpp","tests":[{"id":1766159803183,"input":"4\n5 3 2\n2 0 6\n8 2 4\n100 0 1\n","output":"4\n0\n6\n99\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\Carnival Wheel.cpp","group":"local","local":true}
