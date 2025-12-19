@@ -1,0 +1,1 @@
+{"name":"Local: ashmal","url":"c:\\Users\\ABC\\Desktop\\cp\\ashmal.cpp","tests":[{"id":1766162307390,"input":"3\n4\namir rima amin nima\n1\ncodeforces\n3\na ab abc\n","output":"aminamirrimanima\ncodeforces\naababc\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\ashmal.cpp","group":"local","local":true}
