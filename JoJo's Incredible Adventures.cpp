@@ -7,7 +7,11 @@ int main(){
         string s;
         cin>>s;
         int n=s.size();
-
+        int ones=count(s.begin(),s.end(),'1');
+        if(ones==n){
+            cout<<1LL*n*n<<endl;
+            continue;
+        }
         //Make circular
         string d=s+s;
         int curr=0,l=0;
