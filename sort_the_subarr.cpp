@@ -27,7 +27,7 @@ void solve(){
     }
     //Expand left
     while(l>0 && b[l-1]<=b[l]){
-        l--;
+        l--;//means already sorted so expand the window from left
     }
     //Expand right
     while(r+1<n && b[r]<=b[r+1]){
