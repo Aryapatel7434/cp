@@ -34,8 +34,16 @@ ll binpow(ll a, ll b, ll mod = MOD) {
 }
 
 void solve() {
-    //Wirte your code here
-    
+    int n;
+    cin >> n;
+    if (n <= 3) {
+        cout << n << "\n";
+    } else if (n % 2 == 0) {
+        cout << 0 << "\n";
+    } else {
+        cout << 1 << "\n";
+    }
+
 }
 
 int main() {

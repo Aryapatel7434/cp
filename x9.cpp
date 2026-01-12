@@ -34,7 +34,6 @@ ll binpow(ll a, ll b, ll mod = MOD) {
 }
 
 void solve() {
-    //Wirte your code here
     
 }
 
