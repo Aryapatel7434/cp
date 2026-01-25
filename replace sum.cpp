@@ -11,7 +11,7 @@ int main(){
 
         for(int i=1;i<=n;i++) cin>>a[i];
         for(int i=1;i<=n;i++) cin>>b[i];
-
+         //main focus aarray b compute prefix max of array b and compute the prefix sum of the best array and retun the preticulat query range prefix sum.
         vector<int>best(n+2,0);
         for(int i=n;i>=1;i--){
             best[i]=max(b[i],best[i+1]);
