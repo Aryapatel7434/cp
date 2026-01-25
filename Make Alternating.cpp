@@ -1,36 +1,46 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+
 static const long long MOD = 998244353;
-int main(){
-    int t;
-    cin>>t;
+static const int MAXN = 200000;
 
-    const int MAXN=200000;
-    vector<long long>fact(MAXN+1);
-    fact[0]=1;
-    for(int i=1;i<=MAXN;i++){
-        fact[i]=(fact[i-1]*i)%MOD;
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // Precompute factorials
+    vector<long long> fact(MAXN + 1);
+    fact[0] = 1;
+    for (int i = 1; i <= MAXN; i++) {
+        fact[i] = (fact[i - 1] * i) % MOD;
     }
-    while(t--){
+
+   int t;
+    cin >> t;
+
+    while (t--) {
         string s;
-        cin>>s;
+        cin >> s;
 
-        long long minops=0;
-        long long ways=1;
+        long long D = 0;       // total deletions
+        long long ways = 1;
 
-        int n=s.size();
-        int i=0;
-        while(i<n){
-            int j=i;
-            while(j<n && s[j]==s[i]){
-                j++;
-            }
-            int len=j-i;//similar element block length
-            minops+=(len-1);
-            ways=(ways*fact[len])%MOD;
-            
-            i=j;//move to next block
+        int n = s.size();
+        for (int i = 0; i < n; ) {
+            int j = i;
+            while (j < n && s[j] == s[i]) j++;
+
+            int len = j - i;
+            D += (len - 1);
+            ways = (ways * len) % MOD;
+
+            i = j;
         }
-      cout<<minops<<" "<<ways<<endl;
+
+        ways = (ways * fact[D]) % MOD;
+
+        cout << D << " " << ways << "\n";
     }
+
+    return 0;
 }
