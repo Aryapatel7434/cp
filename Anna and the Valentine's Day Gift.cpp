@@ -22,7 +22,7 @@ int main(){
             //count digit
             long long temp=x;
             int digit=0;
-            while(temp>x){
+            while(temp>0){
                 digit++;
                 temp/=10;
             }
