@@ -1,0 +1,1 @@
+{"name":"Local: EatingGame","url":"c:\\Users\\ABC\\Desktop\\cp\\EatingGame.cpp","tests":[{"id":1772340923502,"input":"3\n1\n10\n2\n6 7\n4\n1 4 3 4\n","output":"1\n1\n2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\EatingGame.cpp","group":"local","local":true}
