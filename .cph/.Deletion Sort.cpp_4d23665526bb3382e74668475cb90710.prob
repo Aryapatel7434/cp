@@ -1,0 +1,1 @@
+{"name":"Local: Deletion Sort","url":"c:\\Users\\ABC\\Desktop\\cp\\Deletion Sort.cpp","tests":[{"id":1772343147382,"input":"3\n4\n1 4 2 3\n1\n100\n2\n6 7\n","output":"1\n1\n2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\Deletion Sort.cpp","group":"local","local":true}
