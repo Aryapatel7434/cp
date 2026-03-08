@@ -1,0 +1,1 @@
+{"name":"Local: A Good Contest","url":"c:\\Users\\ABC\\Desktop\\cp\\A Good Contest.cpp","tests":[{"id":1772984591588,"input":"3\nBurunduk1 2526 2537\nBudAlNik 2084 2214\nsubscriber 2833 2749\n","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\A Good Contest.cpp","group":"local","local":true}
