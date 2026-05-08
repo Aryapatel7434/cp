@@ -1,0 +1,1 @@
+{"name":"Local: Koshary","url":"c:\\Users\\ABC\\Desktop\\cp\\Koshary.cpp","tests":[{"id":1778261538685,"input":"6\n1 1\n1 2\n4 6\n5 9\n7 2\n10 10\n","output":"NO\nYES\nYES\nNO\nYES\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ABC\\Desktop\\cp\\Koshary.cpp","group":"local","local":true}
