@@ -24,8 +24,8 @@ int main(){
 
         sort(people.begin(),people.end());
 
-        long long ans=p;
-        int remaining=n-1;
+        long long ans=p;//first person to inform
+        int remaining=n-1;//remaining people
         for(auto &person:people){
             int cost=person.first;//price
             int limit=person.second;//spread
