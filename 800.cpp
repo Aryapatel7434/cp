@@ -9,7 +9,7 @@ int main() {
         cin >> n;
         long long full = n / 15;
         long long rem = n % 15;
-        long long ans = 3 * full + min(3LL, rem + 1);
+        long long ans = 3 *  + min(3LL, rem + 1);
         cout << ans << "\n";
     }
 }
